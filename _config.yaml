@@ -1,0 +1,19 @@
+url: pipejakob.com
+title: "| jakob"
+description:
+
+email: pipejakob@gmail.com
+github_username: pipejakob
+
+permalink: /:title
+markdown: kramdown
+theme: minima
+timezone: PST8PDT
+gems:
+  - jekyll-feed
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - TODO

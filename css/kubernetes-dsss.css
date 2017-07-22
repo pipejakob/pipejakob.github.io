@@ -1,0 +1,40 @@
+#dsss-definition {
+	border: 1px solid black;
+	background-color: #ddd;
+	margin: 2ex 5em;
+	padding: 1ex 1em;
+}
+
+#dsss-definition tr td:first-child {
+	font-style: normal;
+}
+
+#dsss-definition tr td:first-child::first-letter {
+	font-size: 150%;
+	font-style: bold;
+}
+
+#dsss-definition td {
+	vertical-align: top;
+	padding-right: 2ex;
+	font-style: italic;
+	border-bottom: 1px dashed black;
+}
+
+#dsss-definition tr:last-child td {
+	border-bottom: none;
+}
+
+#map-list {
+	width: 35ex;
+	margin: auto;
+	margin-bottom: 2em;
+	border: 1px solid black;
+	padding: 1em 4ex;
+	font-family: monospace;
+}
+
+.ast {
+	font-size: small;
+	text-align: right;
+}
