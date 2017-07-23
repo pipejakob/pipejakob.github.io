@@ -15,12 +15,12 @@ few resources to take advantage of and so much more to learn.
 _Just looking for the v2 DSSS map? Skip down [here](#map)._
 
 I started diving into Kubernetes about nine months ago as a new developer at
-Google, where I work on both Kubernetes and our hosted version, Google
-Container Engine (GKE). Even with a history of containers and cluster
-environments, the ecosystem around and within Kubernetes was pretty
-intimidating. Add to that my need to learn Google's internal tools and codebase
-in addition to the open source stack used for Kubernetes externally, and I knew
-I needed to be deliberate in my ramp-up.
+Google, where I work on both Kubernetes and our hosted version, [Google
+Container Engine](https://cloud.google.com/container-engine/) (GKE). Even with
+a history of containers and cluster environments, the ecosystem around and
+within Kubernetes was pretty intimidating. Add to that my need to learn
+Google's internal tools and codebase in addition to the open source stack used
+for Kubernetes externally, and I knew I needed to be deliberate in my ramp-up.
 
 Feeling overwhelmed, I turned to a systematic framework for accelerated
 learning called **DSSS**, from one of my favorite authors, [Tim
