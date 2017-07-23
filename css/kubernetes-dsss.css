@@ -1,8 +1,14 @@
 #dsss-definition {
 	border: 1px solid black;
 	background-color: #ddd;
-	margin: 2ex 5em;
+	margin: 2ex 0em;
 	padding: 1ex 1em;
+}
+
+@media screen and (min-width: 50ex) {
+	#dsss-definition {
+		margin: 2ex 5em;
+	}
 }
 
 #dsss-definition tr td:first-child {
@@ -16,7 +22,7 @@
 
 #dsss-definition td {
 	vertical-align: top;
-	padding-right: 2ex;
+	padding-right: 2em;
 	font-style: italic;
 	border-bottom: 1px dashed black;
 }
@@ -26,12 +32,17 @@
 }
 
 #map-list {
-	width: 35ex;
 	margin: auto;
-	margin-bottom: 2em;
+	margin-bottom: 2ex;
 	border: 1px solid black;
-	padding: 1em 4ex;
+	padding: 1ex 4em;
 	font-family: monospace;
+}
+
+@media screen and (min-width: 50em) {
+	#map-list {
+		width: 35em;
+	}
 }
 
 .ast {
